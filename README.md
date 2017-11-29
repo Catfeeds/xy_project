@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 微信图书商城实战课程
 ==================
 
@@ -31,3 +32,7 @@
 
 ##需要扩展
 * php composer.phar require "2amigos/yii2-qrcode-helper:~1.0"
+=======
+# xy_project
+翔游微信项目
+>>>>>>> c77ab0d15c796ba6a9b4170c93e128e374493637
