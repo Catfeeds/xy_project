@@ -10,6 +10,7 @@ use app\models\book\Book;
 use app\models\book\BookCat;
 use app\models\Images;
 use app\models\member\Member;
+use app\models\member\Member_detail;
 use app\models\member\MemberComments;
 use app\models\pay\PayOrder;
 use app\modules\web\controllers\common\BaseController;
@@ -185,8 +186,13 @@ class MemberController extends BaseController{
 	//会员详情
 	public function actionDetail ()
 	{
-		$data = ;
-		return $this->render('detail','list' => $data);
+		if (\Yii::$app->request->isGet){
+			$id = intval($this->get('id',0));
+			$info = Member_detail::find()->where([ 'id' => $id ])->one();
+			return $this->render('detail',['list' => $info]);
+		}
+
+
 	}
 	public function actionComment ()
 	{
