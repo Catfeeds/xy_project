@@ -1,11 +1,11 @@
 <?php
 
 return [
-	'title' => '编程浪子微信图书商城',
+	'title' => '翔游旅居微信应用',
 	'domain' => [
-		'www' => 'http://mybook.imooc.com',
-		'm' => 'http://mybook.imooc.com/m',
-		'web' => 'http://mybook.imooc.com/web'
+		'www' => 'http://mada415.cn',
+		'm' => 'http://mada415.cn/m',
+		'web' => 'http://mada415.cn/web'
 	],
 	'upload' => [
 		'avatar' => '/uploads/avatar',
@@ -13,7 +13,7 @@ return [
 		'book' => '/uploads/book',
 	],
 	'weixin' => [
-		'appid' => '根据实际情况填写',
+		'appid' => 'wx21e9e86a4cf3fa9c',
 		'sk' => '根据实际情况填写',
 		'token' => '根据实际情况填写',
 		'aeskey' => '根据实际情况填写',

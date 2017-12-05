@@ -22,10 +22,10 @@ $upload_config = Yii::$app->params['upload'];
 				<li class="nav-header">
 					<div class="profile-element text-center">
                         <img alt="image" class="img-circle" src="<?=UrlService::buildWwwUrl("/images/web/logo.jpg");?>"  width=170/>
-                        <p class="text-muted">哒哒尼亚</p>
+                        <p class="text-muted">管理员</p>
 					</div>
 					<div class="logo-element">
-                        <img alt="image" class="img-circle" src="<?=UrlService::buildWwwUrl("/images/web/logo.png");?>" />
+                        <img width='50' height='50' alt="image" class="img-circle" src="<?=UrlService::buildWwwUrl("/images/web/logo.png");?>" />
 					</div>
 				</li>
 				<li class="dashboard">

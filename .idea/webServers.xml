@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="df3338d0-1570-472c-b0b4-285ba36686c6" name="张韬服务器" url="http://118.178.182.181/">
+        <fileTransfer host="118.178.182.181" port="22" rootFolder="/var/www/html/xy_project" accessType="SFTP" password="df83df80dff4df8edfd0dfc2dfcbdfc4dfcddfdedfcbdfc5df99df9edf98df99" username="root">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

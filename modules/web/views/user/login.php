@@ -5,7 +5,7 @@ use \app\common\services\UrlService;
 	<div class="row">
 
 		<div class="col-md-6 text-center">
-			<h2 class="font-bold">编程浪子图书商城管理后台</h2>
+			<h2 class="font-bold">翔游微信应用管理后台</h2>
 			<p>
 				<img src="<?=UrlService::buildWwwUrl("/images/common/qrcode.jpg");?>" width="300px"/>
 			</p>
@@ -34,7 +34,7 @@ use \app\common\services\UrlService;
 	<hr>
 	<div class="row">
 		<div class="col-md-6">
-            图书商城管理系统 <a href="http://www.54php.cn/" target="_blank"> 技术支持 </a>
+            旅居商城管理系统 <a href="http://www.54php.cn/" target="_blank"> 技术支持 </a>
 		</div>
 		<div class="col-md-6 text-right">
 			<small>© <?=date("Y");?></small>
