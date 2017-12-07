@@ -3,9 +3,9 @@
 return [
 	'title' => '翔游旅居微信应用',
 	'domain' => [
-		'www' => 'http://mada415.cn',
-		'm' => 'http://mada415.cn/m',
-		'web' => 'http://mada415.cn/web'
+		'www' => 'http://www.mada415.cn',
+		'm' => 'http://www.mada415.cn/m',
+		'web' => 'http://www.mada415.cn/web'
 	],
 	'upload' => [
 		'avatar' => '/uploads/avatar',
