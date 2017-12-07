@@ -3,9 +3,9 @@
 return [
 	'title' => '翔游旅居微信应用',
 	'domain' => [
-		'www' => 'http://mada415.cn',
-		'm' => 'http://mada415.cn/m',
-		'web' => 'http://mada415.cn/web'
+		'www' => 'http://madai8888.tunnel.echomod.cn',
+		'm' => 'http://madai8888.tunnel.echomod.cn/m',
+		'web' => 'http://madai8888.tunnel.echomod.cn/web'
 	],
 	'upload' => [
 		'avatar' => '/uploads/avatar',
@@ -14,8 +14,8 @@ return [
 	],
 	'weixin' => [
 		'appid' => 'wx21e9e86a4cf3fa9c',
-		'sk' => '根据实际情况填写',
-		'token' => '根据实际情况填写',
+		'sk' => '1df20e24bdf4edc6a603457fd49c8535',
+		'token' => 'xiangyouLvJu',
 		'aeskey' => '根据实际情况填写',
 		'pay' => [
 			'key' => '根据实际情况填写',
