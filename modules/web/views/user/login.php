@@ -5,12 +5,12 @@ use \app\common\services\UrlService;
 	<div class="row">
 
 		<div class="col-md-6 text-center">
-			<h2 class="font-bold">翔游微信应用管理后台</h2>
+			<h2 class="font-bold">翔游旅居微信管理后台</h2>
 			<p>
 				<img src="<?=UrlService::buildWwwUrl("/images/common/qrcode.jpg");?>" width="300px"/>
 			</p>
             <p class="text-danger">
-                扫描关注查看Demo
+                扫码关注立即开始旅居生活
             </p>
 		</div>
 		<div class="col-md-6">
@@ -26,7 +26,7 @@ use \app\common\services\UrlService;
 						<input type="password" name="login_pwd" class="form-control" placeholder="请输入登录密码">
 					</div>
 					<button type="submit" class="btn btn-primary block full-width m-b">登录</button>
-                    <h3>账号和密码请关注左侧服务号 回复"<span class="text-danger">商城账号</span>"获取，每日更新一次 </h3>
+                    <h3>账号和密码请关注左侧服务号 回复"<span class="text-danger">管理员账号</span>"获取，每日更新一次 </h3>
 				</form>
 			</div>
 		</div>
@@ -34,7 +34,7 @@ use \app\common\services\UrlService;
 	<hr>
 	<div class="row">
 		<div class="col-md-6">
-            旅居商城管理系统 <a href="http://www.54php.cn/" target="_blank"> 技术支持 </a>
+            翔游旅居管理系统 <a href="http://www.mada415.cn/" target="_blank"> 技术支持 </a>
 		</div>
 		<div class="col-md-6 text-right">
 			<small>© <?=date("Y");?></small>

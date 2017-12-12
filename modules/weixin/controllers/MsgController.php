@@ -37,8 +37,8 @@ class MsgController extends BaseWebController {
 		$res = [ 'type'=>'text','data'=>$this->defaultTip() ];
 		switch ( $msg_type ){
 			case "text":
-				if( $xml_obj->Content == "商城账号"){
-					$res = [ 'type'=>'text','data'=> '用户名：54php.cn，密码：123456' ];
+				if( $xml_obj->Content == "管理员账号"){
+					$res = [ 'type'=>'text','data'=> '用户名：xiangyou，密码：123456' ];
 				}else{
 					$kw = trim( $xml_obj->Content );
 					$res = $this->search( $kw );
@@ -158,8 +158,8 @@ EOT;
 	 */
 	private function subscribeTips(){
 		$resData = <<<EOT
-感谢您关注编程浪子的公众号
-输入关键字,可以搜索商品哦
+感谢您关注翔游旅居的公众号
+输入关键字,可以搜索旅居基地
 EOT;
 			return $resData;
 		}

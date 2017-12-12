@@ -11,14 +11,19 @@ class MenuController extends BaseWebController {
 		$menu  = [
 			"button" => [
 				[
-					"name"       => "商城",
+					"name"       => "去旅居",
 					"type" => "view",
 					"url"  => UrlService::buildMUrl("/default/index")
 				],
 				[
-					"name" => "我",
+					"name" => "旅居宝",
 					"type" => "view",
 					"url" => UrlService::buildMUrl("/user/index")
+				],
+				[
+					"name" => "了解我们",
+					"type" => "view",
+					"url" => UrlService::buildMUrl("/default/index")
 				]
 			]
 		];
