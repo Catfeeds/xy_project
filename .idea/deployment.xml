@@ -5,7 +5,7 @@
       <paths name="张韬服务器">
         <serverdata>
           <mappings>
-            <mapping deploy="/var/www/html/xy_project" local="$PROJECT_DIR$" web="xy_project" />
+            <mapping deploy="xy_project" local="$PROJECT_DIR$" web="xy_project" />
           </mappings>
         </serverdata>
       </paths>
