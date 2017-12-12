@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="253b592f-a4a4-4ef6-93f9-fbe15df05f02" name="Default" comment="">
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/params.php" afterPath="$PROJECT_DIR$/config/params.php" />
 <<<<<<< HEAD
@@ -11,6 +12,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/weixin/controllers/MenuController.php" afterPath="$PROJECT_DIR$/modules/weixin/controllers/MenuController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/weixin/controllers/MsgController.php" afterPath="$PROJECT_DIR$/modules/weixin/controllers/MsgController.php" />
 >>>>>>> 74439d8f3ac9b00d0a3d7e25d5cb84c9cb7c9fdb
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/webServers.xml" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/params.php" afterPath="$PROJECT_DIR$/config/params.php" />
+>>>>>>> 3d7e113d403e58e9ae640ccddb177a4f775292f7
     </list>
     <ignored path="project_xy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,6 +39,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/weixin/controllers/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -42,6 +50,33 @@
             <state relative-caret-position="106">
               <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
 >>>>>>> 74439d8f3ac9b00d0a3d7e25d5cb84c9cb7c9fdb
+=======
+      <file leaf-file-name="params.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/params.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="13" column="60" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/db.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="console.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/console.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 3d7e113d403e58e9ae640ccddb177a4f775292f7
               <folding />
             </state>
           </provider>
@@ -57,7 +92,7 @@
       <file leaf-file-name="RequestService.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/services/weixin/RequestService.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
+            <state relative-caret-position="595">
               <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
 >>>>>>> 74439d8f3ac9b00d0a3d7e25d5cb84c9cb7c9fdb
               <folding />
@@ -88,8 +123,12 @@
       <file leaf-file-name="JssdkController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/weixin/controllers/JssdkController.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="-180">
 >>>>>>> 74439d8f3ac9b00d0a3d7e25d5cb84c9cb7c9fdb
+=======
+            <state relative-caret-position="0">
+>>>>>>> 3d7e113d403e58e9ae640ccddb177a4f775292f7
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -124,7 +163,7 @@
       <file leaf-file-name="UrlService.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/services/UrlService.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
+            <state relative-caret-position="180">
               <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
 >>>>>>> 74439d8f3ac9b00d0a3d7e25d5cb84c9cb7c9fdb
               <folding />
@@ -152,6 +191,7 @@
         <option value="$PROJECT_DIR$/common/services/weixin/RequestService.php" />
         <option value="$PROJECT_DIR$/modules/weixin/controllers/MenuController.php" />
         <option value="$PROJECT_DIR$/config/params.php" />
+        <option value="$PROJECT_DIR$/config/db.php" />
       </list>
     </option>
   </component>
@@ -229,6 +269,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="sql" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -389,10 +430,13 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+=======
+>>>>>>> 3d7e113d403e58e9ae640ccddb177a4f775292f7
               <option name="myItemId" value="config" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+<<<<<<< HEAD
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="xy_project" />
@@ -469,6 +513,8 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+=======
+>>>>>>> 3d7e113d403e58e9ae640ccddb177a4f775292f7
         </subPane>
       </pane>
 <<<<<<< HEAD
@@ -540,11 +586,16 @@
       <workItem from="1512476170094" duration="2535000" />
 =======
       <workItem from="1512525779133" duration="8691000" />
+<<<<<<< HEAD
 >>>>>>> 74439d8f3ac9b00d0a3d7e25d5cb84c9cb7c9fdb
+=======
+      <workItem from="1513007071812" duration="3640000" />
+>>>>>>> 3d7e113d403e58e9ae640ccddb177a4f775292f7
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <option name="totallyTimeSpent" value="13783000" />
   </component>
@@ -558,9 +609,12 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
 =======
     <option name="totallyTimeSpent" value="19939000" />
+=======
+    <option name="totallyTimeSpent" value="23579000" />
+>>>>>>> 3d7e113d403e58e9ae640ccddb177a4f775292f7
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18667643" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -604,6 +658,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/config/params.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -655,6 +710,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 3d7e113d403e58e9ae640ccddb177a4f775292f7
     <entry file="file://$PROJECT_DIR$/modules/web/views/default/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2060">
@@ -874,8 +931,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
           <folding />
 >>>>>>> 74439d8f3ac9b00d0a3d7e25d5cb84c9cb7c9fdb
+=======
+>>>>>>> 3d7e113d403e58e9ae640ccddb177a4f775292f7
         </state>
       </provider>
     </entry>
@@ -883,7 +943,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="31" column="113" selection-start-line="31" selection-start-column="113" selection-end-line="31" selection-end-column="113" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -899,7 +958,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -907,11 +965,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
-          <folding>
-            <marker date="1512556641844" expanded="true" signature="2628:2894" ph="..." />
-            <marker date="1512556641844" expanded="true" signature="3708:3896" ph="..." />
-            <marker date="1512556641844" expanded="true" signature="3965:3980" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -919,7 +972,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -931,23 +983,30 @@
 =======
         <state relative-caret-position="80">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+<<<<<<< HEAD
           <folding />
 >>>>>>> 74439d8f3ac9b00d0a3d7e25d5cb84c9cb7c9fdb
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layouts/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+=======
+>>>>>>> 3d7e113d403e58e9ae640ccddb177a4f775292f7
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/web/views/layouts/main.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="77">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+=======
         <state relative-caret-position="-2103">
           <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding />
+>>>>>>> 3d7e113d403e58e9ae640ccddb177a4f775292f7
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/web/views/user/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -958,28 +1017,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/web/views/user/login.php">
+    <entry file="file://$PROJECT_DIR$/web/images/common/qrcode.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/web/avatar.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/web/logo.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/web/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layouts/main.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+=======
+        <state relative-caret-position="160">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding />
+>>>>>>> 3d7e113d403e58e9ae640ccddb177a4f775292f7
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/params.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="231">
           <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
 =======
         <state relative-caret-position="280">
           <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
+=======
+        <state relative-caret-position="260">
+          <caret line="13" column="60" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/services/weixin/RequestService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+>>>>>>> 3d7e113d403e58e9ae640ccddb177a4f775292f7
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/weixin/controllers/JssdkController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
 >>>>>>> 74439d8f3ac9b00d0a3d7e25d5cb84c9cb7c9fdb
           <folding />
@@ -1009,13 +1107,14 @@
 =======
     <entry file="file://$PROJECT_DIR$/common/services/UrlService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
+        <state relative-caret-position="180">
           <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
 >>>>>>> 74439d8f3ac9b00d0a3d7e25d5cb84c9cb7c9fdb
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/modules/weixin/controllers/MsgController.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -1028,14 +1127,18 @@
           </folding>
 =======
     <entry file="file://$PROJECT_DIR$/common/services/weixin/RequestService.php">
+=======
+    <entry file="file://$PROJECT_DIR$/config/console.php">
+>>>>>>> 3d7e113d403e58e9ae640ccddb177a4f775292f7
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
 >>>>>>> 74439d8f3ac9b00d0a3d7e25d5cb84c9cb7c9fdb
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/modules/weixin/WeixinModule.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1061,6 +1164,12 @@
         <state relative-caret-position="106">
           <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
 >>>>>>> 74439d8f3ac9b00d0a3d7e25d5cb84c9cb7c9fdb
+=======
+    <entry file="file://$PROJECT_DIR$/config/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+>>>>>>> 3d7e113d403e58e9ae640ccddb177a4f775292f7
           <folding />
         </state>
       </provider>

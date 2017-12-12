@@ -3,10 +3,10 @@
 return [
 	'title' => '翔游旅居微信应用',
 	'domain' => [
-		'www' => 'http://madai8888.tunnel.echomod.cn',
-		'm' => 'http://madai8888.tunnel.echomod.cn/m',
-		'web' => 'http://madai8888.tunnel.echomod.cn/web',
-		],
+		'www' => 'http://xiangyou.mada415.cn',
+		'm' => 'http://xiangyou.mada415.cn/m',
+		'web' => 'http://xiangyou.mada415.cn/web'
+	],
 	'upload' => [
 		'avatar' => '/uploads/avatar',
 		'brand' => '/uploads/brand',
