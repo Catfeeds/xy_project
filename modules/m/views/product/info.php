@@ -5,7 +5,7 @@ use \app\common\services\StaticService;
 StaticService::includeAppJsStatic( "/js/m/product/info.js",\app\assets\MAsset::className() );
 ?>
 <div class="pro_tab clearfix">
-    <span>图书详情</span>
+    <span>基地详情</span>
 </div>
 <div class="proban">
     <div id="slideBox" class="slideBox">
