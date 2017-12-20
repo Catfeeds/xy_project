@@ -26,7 +26,7 @@ use \app\common\services\UrlService;
 						<input type="password" name="login_pwd" class="form-control" placeholder="请输入登录密码">
 					</div>
 					<button type="submit" class="btn btn-primary block full-width m-b">登录</button>
-                    <h3>账号和密码请关注左侧服务号 回复"<span class="text-danger">管理员账号</span>"获取，每日更新一次 </h3>
+                    <h3>扫描左侧二维码关注"<span class="text-danger">翔游旅居</span>"微信服务号 请使用"<span class="text-danger">管理员账号</span>"登录</h3>
 				</form>
 			</div>
 		</div>

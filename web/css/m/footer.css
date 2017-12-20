@@ -1,0 +1,40 @@
+/*底部开始*/
+	*{margin: 0;padding: 0;}
+	body{
+		padding-bottom: 50px;
+	}
+	.navbar{
+		background: #272727;
+		border-radius: 0 0 5px 5px;
+	}
+	footer{
+	   	width: 100%;
+	   	height: 50px;
+	   	background: #272727;
+	   	border-radius: 5px 5px 0 0;
+	}
+    .content{
+	   	display: flex;
+	   	justify-content: space-around;
+	   	margin-top: -5px;
+	}
+    .content a{
+   		font-size: 2.8rem;
+   		display: block;
+   		text-align: center;
+   		text-decoration: none;
+	}
+    .content p{
+   		font-size: 14px;
+	}
+	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+		background: none;
+	}
+    #search { border: white; margin-top: -1rem;}
+    #brand{color: white;}
+	form div button{
+    	width: 25%;
+    	height: 40px;
+    	margin-left: 30px;
+	}
+    

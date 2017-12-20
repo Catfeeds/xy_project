@@ -1,7 +1,13 @@
 <?php
 use \app\common\services\UrlService;
 use \app\common\services\UtilService;
+use \app\common\services\StaticService;
 \app\assets\MAsset::register($this);
+
+StaticService::includeAppCssStatic( "/css/m/bootstrap.css",\app\assets\MAsset::className() );
+StaticService::includeAppCssStatic( "/css/m/font/iconfont.css",\app\assets\MAsset::className() );
+StaticService::includeAppCssStatic( "/css/m/styles.css",\app\assets\MAsset::className() );
+StaticService::includeAppCssStatic( "/css/m/footer.css",\app\assets\MAsset::className() );
 ?>
 <!DOCTYPE html>
 <html>
@@ -13,6 +19,7 @@ use \app\common\services\UtilService;
 	<!-- Set render engine for 360 browser -->
 	<meta name="renderer" content="webkit">
 	<title><?=Yii::$app->params['title'];?></title>
+
 	<?php $this->head() ?>
 </head>
 <body>

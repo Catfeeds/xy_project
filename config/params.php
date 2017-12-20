@@ -11,6 +11,8 @@ return [
 		'avatar' => '/uploads/avatar',
 		'brand' => '/uploads/brand',
 		'book' => '/uploads/book',
+		'carousel' => '/uploads/carousel',
+		'jidi' => '/uploads/jidi'
 	],
 	'weixin' => [
 		'appid' => 'wx21e9e86a4cf3fa9c',

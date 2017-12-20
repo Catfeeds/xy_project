@@ -9,3 +9,4 @@ $(document).ready(function () {
         autoPlay: true //自动播放
     });
 });
+
