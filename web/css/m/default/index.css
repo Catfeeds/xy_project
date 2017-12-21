@@ -1,7 +1,7 @@
 *{margin: 0;padding: 0;}
 /*轮播图开始*/
 #myCarousel{
-    margin-top: 50px;
+    margin-top: 30px;
     z-index: 999;
 }
 .zt h4,p{

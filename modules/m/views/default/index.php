@@ -1,21 +1,19 @@
-<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.js"></script>
 <?php
 use \app\common\services\UrlService;
 use \app\common\services\StaticService;
 use \app\common\services\UtilService;
-StaticService::includeAppJsStatic( "/js/m/default/index.js",\app\assets\MAsset::className() );
-
-StaticService::includeAppJsStatic( "/js/m/default/hammer.min.js.js",\app\assets\MAsset::className() );
-StaticService::includeAppJsStatic( "/js/m/default/carousel.js",\app\assets\MAsset::className() );
-StaticService::includeAppJsStatic( "/js/m/default/jquery-2.1.0.js",\app\assets\MAsset::className() );
+StaticService::includeAppCssStatic( "/css/m/default/index.css",\app\assets\MAsset::className() );
+StaticService::includeAppJsStatic( "/js/m/default/hammer.min.js",\app\assets\MAsset::className() );
+StaticService::includeAppJsStatic( "/js/m/default/jquery-2.1.1.min.js",\app\assets\MAsset::className() );
 StaticService::includeAppJsStatic( "/js/m/default/jQuery.rTabs.js",\app\assets\MAsset::className() );
-StaticService::includeAppJsStatic( "/js/m/default/jquery.lazyload.js",\app\assets\MAsset::className() );
 StaticService::includeAppJsStatic( "/js/m/default/jquery.tabs.js",\app\assets\MAsset::className() );
-StaticService::includeAppJsStatic( "/js/m/default/bootstrap.min.js",\app\assets\MAsset::className() );
 StaticService::includeAppJsStatic( "/js/m/default/angular.js",\app\assets\MAsset::className() );
 StaticService::includeAppJsStatic( "/js/m/default/angular-route.js",\app\assets\MAsset::className() );
 StaticService::includeAppJsStatic( "/js/m/default/angular-touch.js",\app\assets\MAsset::className() );
-StaticService::includeAppCssStatic( "/css/m/default/index.css",\app\assets\MAsset::className() );
+StaticService::includeAppJsStatic( "/js/m/default/bootstrap.min.js",\app\assets\MAsset::className() );
+StaticService::includeAppJsStatic( "/js/m/default/carousel.js",\app\assets\MAsset::className() );
+StaticService::includeAppJsStatic( "/js/m/default/index.js",\app\assets\MAsset::className() );
+
 ?>
 
 <!--轮播图开始-->
