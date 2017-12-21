@@ -1,7 +1,7 @@
 <?php
 
 return [
-	'title' => '翔游旅居微信应用',
+	'title' => '翔游大健康旅居养老',
 	'domain' => [
 		'www' => 'http://xiangyou.mada415.cn',
 		'm' => 'http://xiangyou.mada415.cn/m',

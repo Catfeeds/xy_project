@@ -373,4 +373,9 @@ class ProductController extends BaseController {
 			->limit( $page_size )
 			->all();
 	}
+
+	//翔游分类
+	public function actionCate(){
+		return $this->render("cate");
+	}
 }

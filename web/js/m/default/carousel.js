@@ -6,7 +6,7 @@
 $(document).ready(function(){
 
     $('.carousel').carousel({
-        interval: 2000
+        interval: 3000
     })
     //轮播图开始
 
