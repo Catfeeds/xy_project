@@ -43,7 +43,7 @@ StaticService::includeAppJsStatic( "/js/m/default/index.js",\app\assets\MAsset::
     <ul>
         <a href="#" class="iconfont icon-hongbao" style="color: red;"><p>领取红包</p></a>
         <a href="#" class="iconfont icon-shangcheng" style="color: orange;"><p>红包商城</p></a>
-        <a href="<?=UrlService::buildMUrl("/product/index");?>" class="iconfont icon-juzhudi" style="color: #337AB7;"><p>翔游旅居精选</p></a>
+        <a href="<?=UrlService::buildMUrl("/product/base");?>" class="iconfont icon-juzhudi" style="color: #337AB7;"><p>翔游旅居精选</p></a>
         <a href="<?=UrlService::buildMUrl("/product/index");?>" class="iconfont icon-mianfeilvyoujiaotongtu" style="color: green;"><p>免费游</p></a>
         <a href="<?=UrlService::buildMUrl("/product/cate");?>" class="iconfont icon-cuxiao" style="color: red;"><p>精品促销</p></a>
         <a href="#" class="iconfont icon-gengduo" style="color: #272727;"><p>更多</p></a>

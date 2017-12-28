@@ -47,7 +47,7 @@
     text-align: center;
 }
 #med{
-    border-bottom: 1px dashed red;
+    border-bottom: 1px dashed #ccc;
 }
 #med img{
     width: 100px;
@@ -65,7 +65,7 @@
     height: 40px;
     line-height: 40px;
     margin: 8px auto;
-    border-bottom: 1px dashed red;
+    border-bottom: 1px dashed #c2c2c2;
 }
 .recommend ul h5{
     float: left;

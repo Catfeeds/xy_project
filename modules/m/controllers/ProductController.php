@@ -378,4 +378,37 @@ class ProductController extends BaseController {
 	public function actionCate(){
 		return $this->render("cate");
 	}
+
+	//基地
+	public function actionBase(){
+		$kw = trim( $this->get("kw","") );
+		$sort_field = trim( $this->get("sort_field","default") );
+		$sort = trim( $this->get("sort","") );
+		$sort = in_array(  $sort,['asc','desc'] )?$sort:'desc';
+
+		$list = $this->getSearchData( );
+		$data = [];
+		if( $list ){
+			foreach( $list as $_item ){
+				$data[] = [
+					'id' => $_item['id'],
+					'name' => UtilService::encode( $_item['name'] ),
+					'price' => UtilService::encode( $_item['price'] ),
+					'main_image_url' => UrlService::buildPicUrl("book",$_item['main_image'] ),
+					'month_count' => $_item['month_count']
+				];
+			}
+		}
+
+		$search_conditions = [
+			'kw' => $kw,
+			'sort_field' => $sort_field,
+			'sort' => $sort
+		];
+
+		return $this->render("base",[
+			'list' => $data,
+			'search_conditions' => $search_conditions
+		]);
+	}
 }
