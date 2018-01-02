@@ -31,7 +31,7 @@ StaticService::includeAppCssStatic( "/css/m/footer.css",\app\assets\MAsset::clas
 	<?php if( isset( $this->params['current_user'] ) ):?>
         <p class="name">欢迎您，<?=UtilService::encode( $this->params['current_user']["nickname"] );?></p>
 	<?php endif;?>
-    <p class="copyright">由<a href="<?=UrlService::buildWwwUrl('/');?>" target="_blank">哒哒尼亚</a>提供技术支持</p>
+    <p class="copyright">由<a href="<?=UrlService::buildWwwUrl('/');?>" target="_blank">哒哒昵亚</a>提供技术支持</p>
 </div>
 <?php if( !\Yii::$app->view->params['menu_hide'] ):?>
 <div class="footer_fixed clearfix">

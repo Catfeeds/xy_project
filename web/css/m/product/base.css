@@ -1,0 +1,39 @@
+*{margin: 0;padding: 0;}
+/*基地展示*/
+.projects{
+    width: 100%;
+}
+.box{
+    width:100%;
+    background:#fff;
+}
+.tab_menu{
+    overflow:hidden;
+    width: 100%;
+}
+.tab_menu li{
+    width:25%;
+    float:left;
+    height:50px;
+    line-height:50px;
+    color:#fff;
+    background:lightblue;
+    text-align:center;
+    cursor:pointer;
+    list-style: none;
+}
+.tab_menu li.current{
+    color:black;
+    background:orangered;
+}
+.tab_menu li a{
+    color:#fff;
+    text-decoration:none;
+}
+.tab_menu li a:hover{
+    color:#093;
+    text-decoration:none;
+}
+.tab_menu li.current a{
+    color:#333;
+}

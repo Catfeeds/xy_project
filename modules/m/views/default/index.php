@@ -83,6 +83,32 @@ StaticService::includeAppJsStatic( "/js/m/default/index.js",\app\assets\MAsset::
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-xs-12 col-lg-6" id="one">
+                <div class="media" id="med">
+                    <div class="media-left media-middle" id="med1">
+                        <img class="media-object" src="<?=UrlService::buildPicUrl("jidi",'hainan10.jpg' );?>" alt="...">
+                    </div>
+                    <div class="media-body" id="med2">
+                        <h4 class="media-heading"><a href="#">三亚正扬国际度假酒店</a></h4>
+                        <p>三亚正扬国际度假酒店位于三亚湾海坡旅游度假区，由深圳信广集团翻新改造、精心打造的一家滨海度假酒店</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-lg-6" id="one">
+                <div class="media" id="med">
+                    <div class="media-left media-middle" id="med1">
+                        <img class="media-object" src="<?=UrlService::buildPicUrl("jidi",'hainan10.jpg' );?>" alt="...">
+                    </div>
+                    <div class="media-body" id="med2">
+                        <h4 class="media-heading"><a href="#">三亚正扬国际度假酒店</a></h4>
+                        <p>三亚正扬国际度假酒店位于三亚湾海坡旅游度假区，由深圳信广集团翻新改造、精心打造的一家滨海度假酒店</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 <div class="recommend row">
@@ -94,15 +120,26 @@ StaticService::includeAppJsStatic( "/js/m/default/index.js",\app\assets\MAsset::
     <div class="card">
         <a href="#" class="experience">
             <img src="<?=UrlService::buildPicUrl("jidi",'chengdu1.png' );?>"/>
-            <span>红树湾观鹭苑1-803室</span>
+            <strong>红树湾观鹭苑1-803室</strong>
             <span>￥8680元/35天旅居卡</span>
             <span>￥1960元/7天体验卡</span>
         </a>
         <a href="#" class="experience1">
             <img src="<?=UrlService::buildPicUrl("jidi",'dali1.png' );?>"/>
-            <span>红树湾碧云轩8-6A02室</span>
+            <strong>红树湾碧云轩8-6A02室</strong>
             <span>￥11130元/35天旅居卡</span>
             <span>￥2520元/7天体验卡</span>
+            <a href="#" class="experience">
+                <img src="<?=UrlService::buildPicUrl("jidi",'chengdu1.png' );?>"/>
+                <strong>红树湾观鹭苑1-803室</strong>
+                <span>￥8680元/35天旅居卡</span>
+                <span>￥1960元/7天体验卡</span>
+            </a>
+            <a href="#" class="experience1">
+                <img src="<?=UrlService::buildPicUrl("jidi",'dali1.png' );?>"/>
+                <strong>红树湾碧云轩8-6A02室</strong>
+                <span>￥11130元/35天旅居卡</span>
+                <span>￥2520元/7天体验卡</span>
     </div>
 </div>
 <div class="shop_header">

@@ -7,57 +7,12 @@
  */
 use \app\common\services\UrlService;
 use \app\common\services\StaticService;
+StaticService::includeAppCssStatic( "/css/m/product/base.css",\app\assets\MAsset::className() );
 StaticService::includeAppJsStatic( "/js/m/product/index.js",\app\assets\MAsset::className() );
 StaticService::includeAppJsStatic( "/js/m/product/jquery-2.1.1.min.js",\app\assets\MAsset::className() );
 StaticService::includeAppJsStatic( "/js/m/product/jquery.lazyload.js",\app\assets\MAsset::className() );
 StaticService::includeAppJsStatic( "/js/m/product/jquery.tabs.js",\app\assets\MAsset::className() );
 ?>
-<style>
-    *{margin: 0;padding: 0;}
-    /*基地展示*/
-    .projects{
-        width: 100%;
-        margin-top: 49px;
-    }
-    .box{
-        width:100%;
-        margin:10px auto 0;
-        background:#fff;
-    }
-    .tab_menu{
-        overflow:hidden;
-        position: fixed;
-        top: 50px;
-        left: 0;
-        width: 100%;
-    }
-    .tab_menu li{
-        width:25%;
-        float:left;
-        height:50px;
-        line-height:50px;
-        color:#fff;
-        background:lightblue;
-        text-align:center;
-        cursor:pointer;
-        list-style: none;
-    }
-    .tab_menu li.current{
-        color:black;
-        background:orangered;
-    }
-    .tab_menu li a{
-        color:#fff;
-        text-decoration:none;
-    }
-    .tab_menu li a:hover{
-        color:#093;
-        text-decoration:none;
-    }
-    .tab_menu li.current a{
-        color:#333;
-    }
-</style>
 <div class="search_header">
     <a href="<?=UrlService::buildNullUrl();?>" class="category_icon"></a>
     <input name="kw" type="text" class="search_input" placeholder="请输入您搜索的关键词" value="<?=$search_conditions['kw'];?>" />
