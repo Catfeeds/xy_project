@@ -8,7 +8,6 @@ namespace app\modules\web\controllers;
 
 use app\common\services\ConstantMapService;
 use app\common\services\UrlService;
-use app\common\services\UtilService;
 use app\models\log\AppAccessLog;
 use app\models\User;
 use app\modules\web\controllers\common\BaseController;

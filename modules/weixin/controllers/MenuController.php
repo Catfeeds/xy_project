@@ -23,7 +23,7 @@ class MenuController extends BaseWebController {
 				[
 					"name" => "了解我们",
 					"type" => "view",
-					"url" => UrlService::buildMUrl("/default/index")
+					"url" => UrlService::buildMUrl("/brief/index")
 				]
 			]
 		];

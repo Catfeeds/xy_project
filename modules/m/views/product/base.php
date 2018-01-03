@@ -18,6 +18,21 @@ StaticService::includeAppJsStatic( "/js/m/product/jquery.tabs.js",\app\assets\MA
     <input name="kw" type="text" class="search_input" placeholder="请输入您搜索的关键词" value="<?=$search_conditions['kw'];?>" />
     <i class="search_icon"></i>
 </div>
+
+<div class="projects">
+    <div class="box demo2">
+        <ul class="tab_menu">
+            <li class="current">海南</li>
+            <li>山东</li>
+            <li>江苏</li>
+            <li>四川</li>
+            <li>云南</li>
+            <li>广西</li>
+            <li>贵州</li>
+            <li>河北</li>
+        </ul>
+    </div>
+</div>
 <div class="sort_box">
     <ul class="sort_list clearfix">
         <li>
@@ -71,20 +86,6 @@ StaticService::includeAppJsStatic( "/js/m/product/jquery.tabs.js",\app\assets\MA
             </a>
         </li>
     </ul>
-</div>
-<div class="projects">
-    <div class="box demo2">
-        <ul class="tab_menu">
-            <li class="current">海南</li>
-            <li>山东</li>
-            <li>江苏</li>
-            <li>四川</li>
-            <li>云南</li>
-            <li>广西</li>
-            <li>贵州</li>
-            <li>河北</li>
-        </ul>
-    </div>
 </div>
 <div class="probox">
     <?php if( $list ):?>
