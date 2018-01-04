@@ -41,7 +41,7 @@ StaticService::includeAppJsStatic( "/js/m/default/index.js",\app\assets\MAsset::
 <!--顶部导航-->
 <div class="packet">
     <ul>
-        <a href="#" class="iconfont icon-hongbao" style="color: red;"><p>领取红包</p></a>
+        <a href="<?=UrlService::buildMUrl("/red/index");?>" class="iconfont icon-hongbao" style="color: red;"><p>领取红包</p></a>
         <a href="#" class="iconfont icon-shangcheng" style="color: orange;"><p>红包商城</p></a>
         <a href="<?=UrlService::buildMUrl("/product/base");?>" class="iconfont icon-juzhudi" style="color: #337AB7;"><p>翔游旅居精选</p></a>
         <a href="<?=UrlService::buildMUrl("/product/index");?>" class="iconfont icon-mianfeilvyoujiaotongtu" style="color: green;"><p>免费游</p></a>
@@ -50,11 +50,10 @@ StaticService::includeAppJsStatic( "/js/m/default/index.js",\app\assets\MAsset::
     </ul>
 </div>
 <!--推荐预定开始-->
-<div class="recommend row">
+<div class="recommend">
     <ul>
         <li class="col-md-6"><h5>推荐预定</h5></li>
         <li class="col-md-6"><a href="#">更多</a></li>
-
     </ul>
     <div class="container-fluid" id="container">
         <div class="row">
@@ -111,11 +110,10 @@ StaticService::includeAppJsStatic( "/js/m/default/index.js",\app\assets\MAsset::
         </div>
     </div>
 </div>
-<div class="recommend row">
+<div class="recommend">
     <ul>
         <li class="col-md-6"><h5>我的旅居卡</h5></li>
         <li class="col-md-6"><a href="#">更多</a></li>
-
     </ul>
     <div class="card">
         <a href="#" class="experience">
@@ -142,11 +140,6 @@ StaticService::includeAppJsStatic( "/js/m/default/index.js",\app\assets\MAsset::
                 <span>￥2520元/7天体验卡</span>
     </div>
 </div>
-<div class="shop_header">
-    <i class="shop_icon"></i>
-    <strong><?=UtilService::encode($info['name']);?></strong>
-</div>
-
 
 <?php if( $image_list ):?>
 <div id="slideBox" class="slideBox">
