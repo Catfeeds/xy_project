@@ -44,7 +44,7 @@ StaticService::includeAppJsStatic( "/js/m/default/index.js",\app\assets\MAsset::
         <a href="<?=UrlService::buildMUrl("/red/index");?>" class="iconfont icon-hongbao" style="color: red;"><p>领取红包</p></a>
         <a href="#" class="iconfont icon-shangcheng" style="color: orange;"><p>红包商城</p></a>
         <a href="<?=UrlService::buildMUrl("/product/base");?>" class="iconfont icon-juzhudi" style="color: #337AB7;"><p>翔游旅居精选</p></a>
-        <a href="<?=UrlService::buildMUrl("/product/index");?>" class="iconfont icon-mianfeilvyoujiaotongtu" style="color: green;"><p>免费游</p></a>
+        <a href="<?=UrlService::buildMUrl("/plan/index");?>" class="iconfont icon-mianfeilvyoujiaotongtu" style="color: green;"><p>免费游</p></a>
         <a href="<?=UrlService::buildMUrl("/product/cate");?>" class="iconfont icon-cuxiao" style="color: red;"><p>精品促销</p></a>
         <a href="#" class="iconfont icon-gengduo" style="color: #272727;"><p>更多</p></a>
     </ul>
@@ -82,32 +82,6 @@ StaticService::includeAppJsStatic( "/js/m/default/index.js",\app\assets\MAsset::
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-xs-12 col-lg-6" id="one">
-                <div class="media" id="med">
-                    <div class="media-left media-middle" id="med1">
-                        <img class="media-object" src="<?=UrlService::buildPicUrl("jidi",'hainan10.jpg' );?>" alt="...">
-                    </div>
-                    <div class="media-body" id="med2">
-                        <h4 class="media-heading"><a href="#">三亚正扬国际度假酒店</a></h4>
-                        <p>三亚正扬国际度假酒店位于三亚湾海坡旅游度假区，由深圳信广集团翻新改造、精心打造的一家滨海度假酒店</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 col-lg-6" id="one">
-                <div class="media" id="med">
-                    <div class="media-left media-middle" id="med1">
-                        <img class="media-object" src="<?=UrlService::buildPicUrl("jidi",'hainan10.jpg' );?>" alt="...">
-                    </div>
-                    <div class="media-body" id="med2">
-                        <h4 class="media-heading"><a href="#">三亚正扬国际度假酒店</a></h4>
-                        <p>三亚正扬国际度假酒店位于三亚湾海坡旅游度假区，由深圳信广集团翻新改造、精心打造的一家滨海度假酒店</p>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 </div>
 <div class="recommend">
@@ -127,17 +101,7 @@ StaticService::includeAppJsStatic( "/js/m/default/index.js",\app\assets\MAsset::
             <strong>红树湾碧云轩8-6A02室</strong>
             <span>￥11130元/35天旅居卡</span>
             <span>￥2520元/7天体验卡</span>
-            <a href="#" class="experience">
-                <img src="<?=UrlService::buildPicUrl("jidi",'chengdu1.png' );?>"/>
-                <strong>红树湾观鹭苑1-803室</strong>
-                <span>￥8680元/35天旅居卡</span>
-                <span>￥1960元/7天体验卡</span>
-            </a>
-            <a href="#" class="experience1">
-                <img src="<?=UrlService::buildPicUrl("jidi",'dali1.png' );?>"/>
-                <strong>红树湾碧云轩8-6A02室</strong>
-                <span>￥11130元/35天旅居卡</span>
-                <span>￥2520元/7天体验卡</span>
+        </a>
     </div>
 </div>
 
